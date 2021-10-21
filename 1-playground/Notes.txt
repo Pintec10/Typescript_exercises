@@ -1,0 +1,24 @@
+Notes
+
+Ways to compile & run TS files:
+    1- compile with tsc
+        tsc filename.ts     (if getting disabled scripts error:  tsc.cmd filename.ts)
+        node filename.js
+
+    2- install ts-node
+        npm i -g ts-node        (also: npm i -D typescript may be necessary)
+        ts-node filename.ts     (if getting disabled scripts error:  ts-node.cmd filename.ts)
+
+
+Compiler options:
+    Create config file: tsc --init
+
+
+Debug configuration:
+  - open Run/Debug sidebar in VSC
+  - create new launch.json file from Node.js archetype
+  - give it a name, e.g. "Debug Server"
+  - add the "runtimeArgs" and "args" entries
+  - push the button to run the configuration
+  - can add breakpoints
+

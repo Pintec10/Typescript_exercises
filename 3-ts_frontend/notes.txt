@@ -1,0 +1,3 @@
+Modules installed for this project:
+    npm i -D typescript ts-node ts-loader
+    npm i -D webpack webpack-cli @types/webpack

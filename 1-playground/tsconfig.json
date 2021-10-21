@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "lib": [
+      "DOM",
+      "ES6"
+    ],
+    "target": "ES6",
+    "baseUrl": "src",
+    "paths": {
+      "@components/*": [ //not working, possibly some config missing
+        "elements/components/*"
+      ]
+    },
+    "noImplicitAny": true, //avoids auto type 'any' when not specified
+    "noImplicitThis": true, //avoids this with type 'any', eg in nested functions in classes
+    "strictNullChecks": true, //null and undefined values are not in the domain of every type and are only assignable to themselves
+    "strictPropertyInitialization": true, //vars always need to be initialized (assigned a value)
+    "strict": true  //includes all strict checks
+  }
+}

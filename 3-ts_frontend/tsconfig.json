@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "module": "CommonJS",
+        "lib": ["ES2015", "DOM"],
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "sourceMap": true,
+        "strict": true
+    },
+    "exclude": [
+        "node_modules",
+        "./webpack.config.ts"   //otherwise it will be expected to be in the specified root dir during webpack build
+    ]
+}
